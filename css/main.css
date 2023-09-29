@@ -60,6 +60,7 @@ header .banner-content button {
     cursor: pointer;
     transition: 1s;
     margin-bottom: 60px;
+    border-radius: 10px;
 }
 
 header .banner-content button:hover {
@@ -102,8 +103,15 @@ main .first-section .module {
     padding: 14px 60px;
     text-align: center;
     border-radius: 100px;
-    background: #252525;
-    border:1px solid var(--color-blue-light)
+    border:1px solid var(--color-blue-light);
+    transition: all 1s ease;
+    opacity: 0.8;
+    background: linear-gradient(to top, rgb(0,0,0) 100%);
+}
+
+main .first-section .module:hover {
+    opacity: 1;
+    background: linear-gradient(to right, rgba(0,0,0,1) 0%, #2188C6 100%, rgba(0,0,0,1) 0%); 
 }
 
 main .first-section .module span {
