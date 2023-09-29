@@ -1,0 +1,179 @@
+.img-fixed {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../assets/images/woman-code.png");
+    background-size: cover;
+    position: fixed;
+    z-index: -1;
+    filter: contrast(120%) brightness(180%);
+}
+
+:root {
+    --color-black: #000;
+    --color-blue: #2188C6;
+    --color-white: #fff;
+    --color-blue-light: #31A8DD;
+}
+
+header {
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,26,34,1) 49%, rgba(0,0,0,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,26,34,1) 49%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(8,26,34,1) 49%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+}
+
+header .banner-content {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+header .banner-content .logo img {
+    margin-top: 60px;
+    width: 200px;
+    height: 160px;
+}
+
+header .banner-content h1 {
+    margin: 20px;
+    color: var(--color-blue);
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+header .banner-content p {
+    color: var(--color-white);
+    width: 420px;
+    text-align: center;
+}
+
+header .banner-content button {
+    margin: 20px 0 50px 0;
+    background:none;
+    border: 2px solid var(--color-blue-light);
+    color: var(--color-blue-light);
+    padding: 14px 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 60px;
+}
+
+header .banner-content button:hover {
+    background-color: #2188C6;
+    opacity: 0.8;
+    border: 2px solid var(--color-white);
+    color: var(--color-white);
+}
+
+header .banner-content {
+    background-image: url("../assets/images/banner.png");
+    background-size: cover;
+}
+
+main .first-section {
+    padding: 60px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-black);
+    color: var(--color-white);
+    border-top: 1px solid var(--color-blue-light);
+    border-bottom: 1px solid var(--color-blue-light);
+}
+
+main .first-section h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: var(--color-blue-light);
+    text-transform: uppercase;
+}
+
+main .first-section p {
+    text-align: center;
+}
+
+main .first-section .module {
+    margin-top: 20px;
+    padding: 14px 60px;
+    text-align: center;
+    border-radius: 100px;
+    background: #252525;
+    border:1px solid var(--color-blue-light)
+}
+
+main .first-section .module span {
+    color: var(--color-blue-light);
+}
+
+#transform-world {
+    background: none;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0,0,0,.4);
+}
+
+#transform-world p {
+    margin-left: 10px;
+    text-align: left;
+    width: 200px;
+    color: white;
+    text-shadow: 2px 2px 2px var(--color-blue-light);
+    font-size: 24pt;
+    font-weight: 900;
+    text-transform: lowercase;
+}
+
+#professional-challenges {
+    padding: 40px;
+    background-color: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid var(--color-blue-light);
+    border-bottom: 1px solid var(--color-blue-light);
+}
+
+#professional-challenges h2 {
+    margin-bottom: 20px;
+    width: 600px;
+    color: var(--color-blue-light);
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 5px;
+}
+
+#professional-challenges p {
+    color: var(--color-white);
+    text-align: center;
+    font-weight: 400;
+    font-size: 16pt;
+    margin: 40px;
+    max-width: 900px;
+}
+
+footer {
+    background: var(--color-black);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+footer p {
+    color: var(--color-white);
+}
+
+footer p a {
+    text-decoration: none;
+    color: var(--color-blue-light)
+}
