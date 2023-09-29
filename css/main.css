@@ -95,6 +95,7 @@ main .first-section h2 {
 }
 
 main .first-section p {
+    max-width: 800px;
     text-align: center;
 }
 
@@ -167,6 +168,19 @@ main .first-section .module span {
     margin: 40px;
     max-width: 900px;
 }
+
+/* CSS media query dentro de um stylesheet */
+@media (max-width: 600px) {
+    #professional-challenges h2 {
+        font-size: 1rem;
+    }
+
+    main .first-section p, 
+    header .banner-content p, 
+    #professional-challenges p   {
+        font-size: 12px;
+    }
+  }
 
 footer {
     background: var(--color-black);
